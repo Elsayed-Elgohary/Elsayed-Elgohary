@@ -1,4 +1,4 @@
-name: Profile Summary Cards
+name: Metrics
 
 on:
   schedule:
@@ -9,16 +9,14 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  github-metrics:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Generate profile summary cards
-        uses: vn7n24fzkq/github-profile-summary-cards@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
         with:
-          USERNAME: Elsayed-Elgohary
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: Elsayed-Elgohary
+          base: header, activity, repositories
+          filename: metrics.svg
