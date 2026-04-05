@@ -10,7 +10,7 @@
 
 </details>
 
-![Totals Hits](https://komarev.com/ghpvc/?username=SP-XD&style=flat&color=orange&label=PROFILE+VIEWS)
+![Totals Hits](https://komarev.com/ghpvc/?username=Elsayed-Elgohary&style=flat&color=orange&label=PROFILE+VIEWS)
 [![telegram badge](https://img.shields.io/badge/elsay3d_5-grey?style=flat&logo=telegram)](https://t.me/elsay3d_5) <br>
 </div>
 
